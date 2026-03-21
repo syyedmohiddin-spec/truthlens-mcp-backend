@@ -1,0 +1,19 @@
+{
+  "name": "truthlens-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "TRANSPORT=http node ./truthlens-mcp.mjs",
+    "stdio": "node ./truthlens-mcp.mjs",
+    "dev": "TRANSPORT=http node ./truthlens-mcp.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "express": "^5.1.0",
+    "zod": "^3.23.8"
+  }
+}
