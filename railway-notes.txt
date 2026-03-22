@@ -1,2 +1,0 @@
-This folder is designed to be deployed as its own Railway service.
-Set the root directory to /mcp and the start command to npm start.
